@@ -1,0 +1,42 @@
+'''for MOR8'''
+'''factorial import'''
+# def factorial(x):
+#     if x==0:
+#         return 1
+#     elif x==1:
+#         return 1
+#     else:
+#         return factorial(x-1)*x
+'''Volum and Area of cylinder'''
+# from math import *
+# def funk(r,h):
+#     V=pi*r**2*h
+#     A=2*pi*r*h+2*pi*r**2
+#     return print("Volum =",V,"\nArea = ",A)
+'''Volum and Area of sphere'''
+# from math import *
+# def funk(r,h):
+#     V=(4/3)*(pi*r**3)
+#     A=4*pi*r**2
+#     return print("Volum =",V,"\nArea = ",A)
+'''radian to degree'''
+# from math import *
+# def rad(x):
+#     c=pi/180
+#     z=c*x
+#     return print(x,"radian =",z,"degree")
+'''print all primes smaller than or equal to a specified number.'''
+# def isPrime(n):
+#     # Corner case
+#     if n <= 1:
+#         return False
+#     # check from 2 to n-1
+#     for i in range(2, n):
+#         if n % i == 0:
+#             return False
+#
+#     return True
+# def printPrime(n):
+#     for i in range(2, n + 1):
+#         if isPrime(i):
+#             print(i, end=" ")
